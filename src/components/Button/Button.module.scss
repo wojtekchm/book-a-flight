@@ -1,0 +1,22 @@
+@import "../../style/shared/variables";
+.btn {
+  display: block;
+  box-sizing: border-box;
+  margin: 2em auto;
+  // nie potrafie odnieść się tutaj do elementu form
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  transition: 1s;
+  width: 100%;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
