@@ -1,0 +1,14 @@
+@import "../../style/shared/variables";
+.infoBox {
+  background-color: $gray;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transform: translate(-10%, -10%);
+  padding: 20px;
+  border-radius: 10px;
+
+  .userP {
+    margin-bottom: 5px;
+  }
+}

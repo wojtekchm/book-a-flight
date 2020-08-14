@@ -1,7 +1,6 @@
 @import "../../style/shared/variables";
 .inp {
   display: block;
-  margin: 0.2em auto;
   background-color: #fff;
   border: none;
   border-radius: 5px;
@@ -9,4 +8,8 @@
   letter-spacing: 2px;
   padding: 10px 20px 10px 20px;
   width: 100%;
+  margin-bottom: 25px;
+}
+.inp:nth-child(2) {
+  margin-bottom: 9px;
 }

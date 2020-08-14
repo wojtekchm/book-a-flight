@@ -1,11 +1,15 @@
 import React from "react";
 import "../style/main.scss";
-import Form from "../components/Form/Form";
+import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
+import Login from "./Login";
 
 const App = () => (
-  <>
-    <Form />
-  </>
+  <BrowserRouter>
+    <Switch>
+      <Route exact path="/" render={() => <Redirect to="/login" />} />
+      <Route exact path="/login" component={Login} />
+    </Switch>
+  </BrowserRouter>
 );
 
 export default App;

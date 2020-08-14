@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Wojtek",
+      "subName": "Chmiel",
+      "email": "wwchmiel@wp.pl",
+      "password": "pass123word"
+    },
+    {
+      "name": "Kuba",
+      "subName": "Dolata",
+      "email": "jdolata5@gmail.com",
+      "password": "pass123word"
+    },
+    {
+      "name": "Łukasz",
+      "subName": "Golata",
+      "email": "lgolata15@gmail.com",
+      "password": "pass123word"
+    },
+    {
+      "name": "1Łukasz",
+      "subName": "Golata",
+      "email": "1lgolata15@gmail.com",
+      "password": "pass123word"
+    }
+  ]
+}
